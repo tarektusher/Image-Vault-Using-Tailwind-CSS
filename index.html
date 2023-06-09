@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     
+     <title>GhostBault</title>
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+     <link rel="stylesheet" href="./dist/output.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-f-color px-52 pt-32">
+
+     <!-- Top Navbar -->
+     <nav class="bg-top-nav fixed top-0 left-0 w-screen">
+          <div class="flex items-center justify-between p-2">
+               <div class="w-44">
+                    <img src="assets/branding.jpg" alt="">
+               </div>
+               <div>
+                    <div >
+                         <input class="w-96 h-10 rounded-3xl text-black bg-sub-nav px-2 tpp" type=" text" placeholder=" Search files....">
+                         <button>
+                              <span class="material-symbols-outlined align-middle bg-sub-nav p-2 mb-1 rounded-3xl tpp">
+                              search
+                              </span>
+                         </button>
+                    </div>
+                    <div class="flex gap-y-2">
+                         <span>Size</span><span class="material-symbols-outlined align-middle">
+                              arrow_right
+                              </span>
+                         <span>Orientation</span>
+                         <span class="material-symbols-outlined align-middle">
+                              arrow_right
+                              </span>
+                         <span>Metadata</span><span class="material-symbols-outlined align-middle">
+                              arrow_right
+                              </span>
+                              
+                    </div>
+               </div>
+               <div class="flex gap-x-4 mr-4">
+                    <div >
+                         <button class="flex gap-x-1 tp">
+                              <span class="material-symbols-outlined align-middle">
+                              settings
+                              </span>Advanced Settings
+                         </button>
+                         
+                    </div>
+                    <button>
+                         <div class="flex gap-x-1 tp">
+                              <span class="material-symbols-outlined align-middle">
+                                   person
+                              </span>Zyan Tarek
+                         </div>
+                    </button>
+                    
+               </div>
+          </div>
+     </nav>
+
+     <!-- Sub-Nav -->
+     <div class= "fixed bg-sub-nav top-20 right-0 left-0 p-4 flex justify-between">
+          <div class="cursor-pointer tp">
+               <span class="material-symbols-outlined align-middle gap-10 cursor-pointer">
+                    cloud_upload
+               </span> <span>Import files</span> 
+          </div>
+
+          <div >
+               <div class="flex gap-x-4">
+                    <div class="flex gap-x-1  cursor-pointer tp">
+                         <span class="material-symbols-outlined align-middle ">
+                         publish
+                         </span>Publish
+                    </div>
+                    <div class="flex gap-x-1  cursor-pointer tp">
+                         <span class="material-symbols-outlined align-middle">
+                         download
+                         </span>Download
+                    </div>
+                    <div class="flex gap-x-1 cursor-pointer tp">
+                         <span class="material-symbols-outlined align-middle">
+                         reset_tv
+                    </span>Organize
+
+                    </div>
+                    <div class="flex gap-x-1 cursor-pointer tp">
+                         <span class="material-symbols-outlined align-middle">
+                         trending_flat
+                    </span>Move
+                    </div>
+                    
+                    <div class="flex gap-x-1 cursor-pointer tp">
+                         <span class="material-symbols-outlined align-middle">
+                         share
+                    </span>Share
+                    
+                    </div>
+                    <div class="flex gap-x-1 cursor-pointer tp ">
+                         <span class="material-symbols-outlined align-middle">
+                              more_horiz
+                              </span>More
+                    </div>
+               </div>
+               
+          </div>
+          <div class="mr-14">
+               <span class="material-symbols-outlined cursor-pointer tp">
+                    apps
+               </span>
+               <span class="material-symbols-outlined cursor-pointer tp">
+                    grid_view
+               </span>
+               <span class="material-symbols-outlined cursor-pointer tp">
+                    view_timeline
+               </span>
+          </div>
+          <div class="cursor-pointer tp">
+               <span class="material-symbols-outlined align-middle">
+                    delete_forever
+               </span>Delete
+          </div>
+     </div>
+
+     <!-- Left-Nav -->
+     <div class="fixed w-72 h-screen bg-sub-nav top-32 left-0" >
+          <div class="bg-top-nav flex ">
+               <div class="p-2 bg-sub-nav mt-4 cursor-pointer"><h5>Categories</h5></div>
+               <div class="p-2 mt-4 cursor-pointer hover:bg-sub-nav"><h5>Library</h5></div>
+               <div class="p-2 mt-4 cursor-pointer hover:bg-sub-nav"><h5>Agreement</h5></div>
+          </div>
+          <div class="ml-2 mt-4">
+               <button class="tp">
+                    <span class="tp px-1 material-symbols-outlined align-middle">
+                         folder
+                    </span>Categories
+               </button>
+               <button class="tp">
+                    <span class="tp material-symbols-outlined align-middle">
+                         search_check
+                    </span>Extended Search
+               </button>
+          </div>
+          <div class="ml-2 mt-4">
+               <input type="text" class="bg-top-nav p-2 rounded-3xl tpp" placeholder="Search">
+          <button>
+               <span class="material-symbols-outlined align-middle bg-top-nav p-2 mb-1 rounded-3xl tpp">
+               search
+               </span>
+          </button>
+          </div>
+          <div class="ml-2 mt-4">
+          <button class="tp px-1">
+               <span class="material-symbols-outlined align-middle ml-7 cursor-pointer tp">
+               check_box_outline_blank
+               </span>Email Graphics 
+          </button>
+          <br>
+          <button class="tp px-1">
+               <span class="material-symbols-outlined align-middle ml-7">
+                    check_box_outline_blank
+               </span>Interest
+          </button>
+          <br>
+          <button class="tp px-1">
+               <span class="material-symbols-outlined align-middle ml-7">
+                    check_box_outline_blank
+               </span>Landing Page
+          </button>
+          <br>
+          <button class="tp px-1">
+               <span class="material-symbols-outlined align-middle ml-7">
+                    check_box_outline_blank
+               </span>People
+          </button>
+          <br>
+          
+          <span class="material-symbols-outlined align-middle ">
+               arrow_right
+               </span>
+          <button class="tp px-1">
+               <span class="material-symbols-outlined align-middle">
+               check_box_outline_blank
+               </span>Python
+          </button>     
+          <br>
+          <button class="tp px-1">
+               <span class="material-symbols-outlined align-middle ml-7">
+                    check_box_outline_blank
+               </span>Staf
+          </button>
+          <br>
+          <span class="material-symbols-outlined align-middle">
+               arrow_right
+          </span>
+          <button class="tp px-1">
+               <span class="material-symbols-outlined align-middle ">
+                    check_box_outline_blank
+               </span>Trips
+          </button>
+          <br>
+          <button class="tp px-1">
+               <span class="material-symbols-outlined align-middle ml-7">
+                    check_box_outline_blank
+               </span>User
+          </button>
+          <br>
+          <button class="tp px-1">
+               <span class="material-symbols-outlined align-middle ml-7">
+                    check_box_outline_blank
+               </span>Video
+          </button>
+               <br>
+          <span class="material-symbols-outlined align-middle">
+               arrow_right
+               </span>
+          <button class="tp px-1">
+          
+               <span class="material-symbols-outlined align-middle">
+               check_box_outline_blank</span>Web
+          </button>
+          
+          <br>
+          </div>
+          
+     </div>
+
+     <!-- Right Nav -->
+          
+     <div class="fixed w-56 h-screen bg-sub-nav top-32 right-0" >
+          <div class="flex  gap-x-2 bg-top-nav p-2">
+               <div class="bg-sub-nav p-2"><h5>Information</h5></div>
+               <div class="p-2 hover:bg-sub-nav"><h5>Metadata</h5></div>
+          </div>
+          <img src="assets/1.jpg" alt="">
+          <h1 class="ml-16">Beautiful city.jpg</h1>
+          <div class="flex gap-2 mt-3 text-sm">
+               <div class="text-right font-medium w-1/2">
+                    <p>Id</p>
+                    <p>Vault</p>
+                    <p>Date Uploaded</p>
+                    <br>
+                    <p>Updated by</p>
+                    <p>Categories</p>
+                    <p>File Extension</p>
+                    <p>File Size</p>
+                    <p>Width</p>
+                    <p>Height</p>
+                    <p>Area of Interest</p>
+                    <p>Tags</p>
+                    <p>Description</p>
+               </div>
+               <div class="font-medium w-1/2 text-new-color">
+                    <p>3349</p>
+                    <p>EmailGraphics</p>
+                    <p>16/05/23</p>
+                    <p>23:04:24</p>
+                    <p>Afroza Farzana</p>
+                    <p>EmailGraphics</p>
+                    <p>jpg</p>
+                    <p>53.5 kb</p>
+                    <p>488</p>
+                    <p>488</p>
+                    <p>Yes</p>
+               </div>
+          </div>
+     </div>
+     
+
+     <!-- Main Body  -->
+     <div class="bg-temp-color min-h-screen flex gap-x-2 p-6 ml-16">
+          <div class="flex flex-col gap-2 ">
+               <img class="rounded-md flex-shrink-0 tp" src="assets/1.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp" src="assets/2.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp" src="assets/3.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp" src="assets/4.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp" src="assets/5.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp" src="assets/6.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp" src="assets/7.jpg" alt="">
+          </div>
+          <div class="flex flex-col gap-2">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/5.jpg" alt="">
+               <img class="rounded-md flex-shrink-0  border-4 border-sel-bl tp"  src="assets/1.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/7.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/2.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/6.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/3.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/4.jpg" alt="">
+              
+               
+               
+          </div>
+          <div class="flex flex-col gap-2">
+
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/7.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/1.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/5.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/3.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/4.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/2.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/6.jpg" alt="">
+               
+          </div>
+          <div class="flex flex-col gap-2">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/3.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/5.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/1.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/2.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/7.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/4.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/6.jpg" alt="">
+               
+               
+          </div>
+          <div class="flex flex-col gap-2">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/4.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/5.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/6.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/7.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/1.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/2.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/3.jpg" alt="">
+              
+          </div>
+          <div class="flex flex-col gap-2">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/6.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/1.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/3.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/7.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/4.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/2.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/5.jpg" alt="">
+          </div>
+          <div class="flex flex-col gap-2">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/2.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/4.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/6.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  class="rounded-md flex-shrink-0"  src="assets/1.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/3.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/5.jpg" alt="">
+               <img class="rounded-md flex-shrink-0 tp"  src="assets/7.jpg" alt="">
+          </div>
+     </div>
+</body>
+</html>
