@@ -8,6 +8,7 @@
       /* transition: 1ms;  */
      /* transition-duration: 300ms; */
      /* transition-timing-function: cubic-bezier(0, 0, 0.2, 1); */
+     overflow: hidden;
      opacity: 0.6;
 }
 .tpp:hover{
