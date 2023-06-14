@@ -546,6 +546,10 @@ video {
   top: 8rem;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
